@@ -1,0 +1,20 @@
+.pageContainer {
+  margin-top: 14px;
+  margin-bottom: 3rem;
+}
+
+.morePosts {
+  color: var(--pink);
+  margin-top: 64px;
+
+  span {
+    cursor: pointer;
+    font-weight: 600;
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+}

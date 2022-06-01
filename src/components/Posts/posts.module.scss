@@ -1,0 +1,20 @@
+.postsContainer {
+  transition: filter 0.2;
+
+  &:hover {
+    filter: brightness(1.2);
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+  p {
+    margin-top: 8px;
+    color: var(--gray-300);
+  }
+
+  &+.postsContainer {
+    margin-top: 48px;
+  }
+}

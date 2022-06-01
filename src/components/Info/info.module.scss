@@ -1,0 +1,24 @@
+.info {
+  display: flex;
+  align-items: center;
+
+  font-size: 0.8rem;
+  margin-top: 24px;
+  color: var(--gray-500);
+
+  time,
+  span {
+    margin-left: 8px;
+  }
+
+  time,
+  span {
+    &+img {
+      margin-left: 24px;
+    }
+  }
+}
+
+.textBigger {
+  font-size: 1.2rem;
+}

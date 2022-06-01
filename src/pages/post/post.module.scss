@@ -1,0 +1,61 @@
+.main {
+  margin-top: 4rem;
+
+  .info {
+    h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+    }
+
+    &+.content {
+      margin-top: 4rem;
+    }
+  }
+}
+
+.content {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--white);
+    margin-top: 2rem;
+  }
+
+  div {
+    margin-top: 2rem;
+    line-height: 2rem;
+    font-size: 1.125rem;
+    color: var(--gray-300);
+
+    p,
+    ul {
+      margin: 1.5rem 0;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+
+      li {
+        margin: 0.5rem 0;
+      }
+    }
+
+    a {
+      color: var(--pink);
+
+      transition: filter 0.2s;
+
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+
+    strong {
+      color: var(--white);
+    }
+  }
+}
